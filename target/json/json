@@ -1,0 +1,1329 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: Bamisho"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 23,
+        "name": "New users are able to create new account",
+        "description": "",
+        "id": "bbc-registration;new-users-are-able-to-create-new-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18464276873,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the BBC Homepage",
+            "match": {
+              "location": "BBChomePageTest.i_am_on_the_BBC_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1956195112,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Signin",
+            "match": {
+              "location": "BBChomePageTest.i_click_Signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 514548500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click register now",
+            "match": {
+              "location": "BBChomePageTest.i_click_register_now()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 852759307,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I type day \"01\" in the day field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "01",
+                  "offset": 12
+                }
+              ],
+              "location": "BBChomePageTest.i_type_day_in_the_day_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 201212687,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I type month \"05\" in the month field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "05",
+                  "offset": 14
+                }
+              ],
+              "location": "BBChomePageTest.i_type_month_in_the_month_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 200734519,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I typr year \"2001\" in the year field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2001",
+                  "offset": 13
+                }
+              ],
+              "location": "BBChomePageTest.i_typr_year_in_the_year_field(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1683943098,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click Next",
+            "match": {
+              "location": "BBChomePageTest.i_click_Next()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 399115027,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I type email \"dan@gmail.com\" address in the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dan@gmail.com",
+                  "offset": 14
+                }
+              ],
+              "location": "BBChomePageTest.i_type_email_address_in_the_email_field(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 266635956,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I type password \"today1\" in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "today1",
+                  "offset": 17
+                }
+              ],
+              "location": "BBChomePageTest.i_type_password_in_the_password_field(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 254633459,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I type Hometown\"London\" in the hometown field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "London",
+                  "offset": 16
+                }
+              ],
+              "location": "BBChomePageTest.i_type_Hometown_in_the_hometown_field(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "I type select \"male\"",
+            "match": {},
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I click the NO button, I dont want email updates",
+            "match": {
+              "location": "BBChomePageTest.i_click_the_NO_button_I_dont_want_email_updates()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I click Register button",
+            "match": {
+              "location": "BBChomePageTest.i_click_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I close the browser",
+            "match": {
+              "location": "MortgageCalculatorTest.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "New users are able to create new account",
+        "description": "",
+        "id": "bbc-registration;new-users-are-able-to-create-new-account;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18366466183,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the BBC Homepage",
+            "match": {
+              "location": "BBChomePageTest.i_am_on_the_BBC_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2278867877,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Signin",
+            "match": {
+              "location": "BBChomePageTest.i_click_Signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 287173026,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click register now",
+            "match": {
+              "location": "BBChomePageTest.i_click_register_now()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 196982833,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I type day \"05\" in the day field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "05",
+                  "offset": 12
+                }
+              ],
+              "location": "BBChomePageTest.i_type_day_in_the_day_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169415730,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I type month \"01\" in the month field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "01",
+                  "offset": 14
+                }
+              ],
+              "location": "BBChomePageTest.i_type_month_in_the_month_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 192016408,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I typr year \"2002\" in the year field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2002",
+                  "offset": 13
+                }
+              ],
+              "location": "BBChomePageTest.i_typr_year_in_the_year_field(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1174436493,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click Next",
+            "match": {
+              "location": "BBChomePageTest.i_click_Next()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 478280793,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I type email \"yem@aol.com\" address in the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "yem@aol.com",
+                  "offset": 14
+                }
+              ],
+              "location": "BBChomePageTest.i_type_email_address_in_the_email_field(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 350552610,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I type password \"yeswecan\" in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "yeswecan",
+                  "offset": 17
+                }
+              ],
+              "location": "BBChomePageTest.i_type_password_in_the_password_field(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 349639744,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I type Hometown\"Leeds\" in the hometown field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Leeds",
+                  "offset": 16
+                }
+              ],
+              "location": "BBChomePageTest.i_type_Hometown_in_the_hometown_field(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "I type select \"female\"",
+            "match": {},
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I click the NO button, I dont want email updates",
+            "match": {
+              "location": "BBChomePageTest.i_click_the_NO_button_I_dont_want_email_updates()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I click Register button",
+            "match": {
+              "location": "BBChomePageTest.i_click_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I close the browser",
+            "match": {
+              "location": "MortgageCalculatorTest.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Register"
+          }
+        ]
+      }
+    ],
+    "name": "BBC Registration",
+    "description": "",
+    "id": "bbc-registration",
+    "keyword": "Feature",
+    "uri": "BBCRegister.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: Bamisho"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16836167726,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on BBC Homes Homepage",
+            "match": {
+              "location": "MortgageCalculatorTest.i_am_on_BBC_Homes_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1261365242,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Property",
+            "match": {
+              "location": "MortgageCalculatorTest.i_click_Property()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 865086619,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click Mortgage calculator",
+            "match": {
+              "location": "MortgageCalculatorTest.i_click_Mortgage_calculator()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Users are able to calculate mortgage when valid details are entered",
+        "description": "",
+        "id": "bbc-mortgage-calculator;users-are-able-to-calculate-mortgage-when-valid-details-are-entered;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 305758180,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Mortgage required I type \"500000\" into Mortgage required",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500000",
+                  "offset": 26
+                }
+              ],
+              "location": "MortgageCalculatorTest.mortgage_required_I_type_into_Mortgage_required(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174181107,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Repayment period I type \"30\" into Repayment period",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 25
+                }
+              ],
+              "location": "MortgageCalculatorTest.repayment_period_I_type_into_Repayment_period(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132497788,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Interest rate I type \"12\" into Interest rate",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 22
+                }
+              ],
+              "location": "MortgageCalculatorTest.interest_rate_I_type_into_Interest_rate(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143743185,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click calculate",
+            "match": {
+              "location": "MortgageCalculatorTest.i_click_calculate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "I see \u003cMonthly repayment\u003e details",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "I click clear button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I close the browser",
+            "match": {
+              "location": "MortgageCalculatorTest.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@MortgageCal"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15688415658,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on BBC Homes Homepage",
+            "match": {
+              "location": "MortgageCalculatorTest.i_am_on_BBC_Homes_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1033186784,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Property",
+            "match": {
+              "location": "MortgageCalculatorTest.i_click_Property()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 878835154,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click Mortgage calculator",
+            "match": {
+              "location": "MortgageCalculatorTest.i_click_Mortgage_calculator()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Users are able to calculate mortgage when valid details are entered",
+        "description": "",
+        "id": "bbc-mortgage-calculator;users-are-able-to-calculate-mortgage-when-valid-details-are-entered;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 275405990,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Mortgage required I type \"400000\" into Mortgage required",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400000",
+                  "offset": 26
+                }
+              ],
+              "location": "MortgageCalculatorTest.mortgage_required_I_type_into_Mortgage_required(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 196153888,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Repayment period I type \"25\" into Repayment period",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25",
+                  "offset": 25
+                }
+              ],
+              "location": "MortgageCalculatorTest.repayment_period_I_type_into_Repayment_period(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 165761851,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Interest rate I type \"10\" into Interest rate",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 22
+                }
+              ],
+              "location": "MortgageCalculatorTest.interest_rate_I_type_into_Interest_rate(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153737619,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click calculate",
+            "match": {
+              "location": "MortgageCalculatorTest.i_click_calculate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "I see \u003cMonthly repayment\u003e details",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "I click clear button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I close the browser",
+            "match": {
+              "location": "MortgageCalculatorTest.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@MortgageCal"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12020090296,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on BBC Homes Homepage",
+            "match": {
+              "location": "MortgageCalculatorTest.i_am_on_BBC_Homes_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1649947897,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Property",
+            "match": {
+              "location": "MortgageCalculatorTest.i_click_Property()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1075668862,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click Mortgage calculator",
+            "match": {
+              "location": "MortgageCalculatorTest.i_click_Mortgage_calculator()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Users are able to calculate mortgage when valid details are entered",
+        "description": "",
+        "id": "bbc-mortgage-calculator;users-are-able-to-calculate-mortgage-when-valid-details-are-entered;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 339206386,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Mortgage required I type \"300000\" into Mortgage required",
+            "match": {
+              "arguments": [
+                {
+                  "val": "300000",
+                  "offset": 26
+                }
+              ],
+              "location": "MortgageCalculatorTest.mortgage_required_I_type_into_Mortgage_required(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 201318343,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Repayment period I type \"20\" into Repayment period",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 25
+                }
+              ],
+              "location": "MortgageCalculatorTest.repayment_period_I_type_into_Repayment_period(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179141495,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Interest rate I type \"8\" into Interest rate",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 22
+                }
+              ],
+              "location": "MortgageCalculatorTest.interest_rate_I_type_into_Interest_rate(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215806468,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click calculate",
+            "match": {
+              "location": "MortgageCalculatorTest.i_click_calculate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "I see \u003cMonthly repayment\u003e details",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "I click clear button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I close the browser",
+            "match": {
+              "location": "MortgageCalculatorTest.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@MortgageCal"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14476831800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on BBC Homes Homepage",
+            "match": {
+              "location": "MortgageCalculatorTest.i_am_on_BBC_Homes_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1251729434,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Property",
+            "match": {
+              "location": "MortgageCalculatorTest.i_click_Property()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1112364021,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click Mortgage calculator",
+            "match": {
+              "location": "MortgageCalculatorTest.i_click_Mortgage_calculator()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Users are able to calculate mortgage when valid details are entered",
+        "description": "",
+        "id": "bbc-mortgage-calculator;users-are-able-to-calculate-mortgage-when-valid-details-are-entered;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 382351379,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Mortgage required I type \"200000\" into Mortgage required",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200000",
+                  "offset": 26
+                }
+              ],
+              "location": "MortgageCalculatorTest.mortgage_required_I_type_into_Mortgage_required(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 340241813,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Repayment period I type \"15\" into Repayment period",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 25
+                }
+              ],
+              "location": "MortgageCalculatorTest.repayment_period_I_type_into_Repayment_period(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194318496,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Interest rate I type \"6\" into Interest rate",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 22
+                }
+              ],
+              "location": "MortgageCalculatorTest.interest_rate_I_type_into_Interest_rate(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 220423323,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click calculate",
+            "match": {
+              "location": "MortgageCalculatorTest.i_click_calculate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "I see \u003cMonthly repayment\u003e details",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "I click clear button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I close the browser",
+            "match": {
+              "location": "MortgageCalculatorTest.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@MortgageCal"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16509855572,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on BBC Homes Homepage",
+            "match": {
+              "location": "MortgageCalculatorTest.i_am_on_BBC_Homes_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1271787732,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Property",
+            "match": {
+              "location": "MortgageCalculatorTest.i_click_Property()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 844770521,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click Mortgage calculator",
+            "match": {
+              "location": "MortgageCalculatorTest.i_click_Mortgage_calculator()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Users are able to calculate mortgage when valid details are entered",
+        "description": "",
+        "id": "bbc-mortgage-calculator;users-are-able-to-calculate-mortgage-when-valid-details-are-entered;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 565651486,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Mortgage required I type \"100000\" into Mortgage required",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100000",
+                  "offset": 26
+                }
+              ],
+              "location": "MortgageCalculatorTest.mortgage_required_I_type_into_Mortgage_required(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 372220498,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Repayment period I type \"10\" into Repayment period",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 25
+                }
+              ],
+              "location": "MortgageCalculatorTest.repayment_period_I_type_into_Repayment_period(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185113160,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Interest rate I type \"4\" into Interest rate",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 22
+                }
+              ],
+              "location": "MortgageCalculatorTest.interest_rate_I_type_into_Interest_rate(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 212461104,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click calculate",
+            "match": {
+              "location": "MortgageCalculatorTest.i_click_calculate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "I see \u003cMonthly repayment\u003e details",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "I click clear button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I close the browser",
+            "match": {
+              "location": "MortgageCalculatorTest.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@MortgageCal"
+          }
+        ]
+      }
+    ],
+    "name": "BBC mortgage calculator",
+    "description": "",
+    "id": "bbc-mortgage-calculator",
+    "keyword": "Feature",
+    "uri": "MortCalculator.feature"
+  }
+]
